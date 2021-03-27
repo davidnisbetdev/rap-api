@@ -1,5 +1,5 @@
 const { response } = require('express')
-const express =require('express')
+const express = require('express')
 const app = express()
 const cors = require('cors')
 const PORT = 8000
@@ -8,12 +8,12 @@ app.use(cors())
 
 
 let rappers = {
-    '21 Savage': {
+    '21 savage': {
     'age': 28,
     'birthName': 'Sheyaa Bin Abraham-Joseph',
     'birthLocation': 'London, England'
     },
-    'Chance The Rapper': {
+    'chance the rapper': {
     'age': 27,
     'birthName': 'Chancelor Jonathan Bennet',
     'birthLocation': 'Chicaho, Illinois'
